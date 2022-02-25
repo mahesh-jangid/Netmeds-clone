@@ -31,8 +31,8 @@ function navbar() {
           <button><img src="Images/searchBtn.png" alt="" /></button>
         </div>
       </div>
-      <div class="uploadDiv">UPLOAD</div>
-      <div class="cartIconDiv invert">
+      <div class="box">
+            <div class="cartIconDiv invert">
         <a href="cart.html"
           ><img src="Images/cartIcon.png" alt="Cart Bag" />
           <p id="itemsInCart">0</p>
@@ -46,6 +46,8 @@ function navbar() {
       <div class="loginDiv">
         <a href="signup.html" id="userLoginName">Sign in / Sign up</a>
       </div>
+      </div>
+
     </header>`;
 }
 export default navbar;

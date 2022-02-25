@@ -124,6 +124,11 @@
     height: 30px;
     color: aqua;
 }
+.box {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
 
 .invert {
     filter: invert(1);
