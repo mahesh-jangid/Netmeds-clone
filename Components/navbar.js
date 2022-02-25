@@ -23,7 +23,6 @@ function navbar() {
           <input
             type="search"
             id="searchProduct"
-            onkeyup="searchProduct()"
             placeholder="Search for medicine & wellness product..."
           />
         </div>
