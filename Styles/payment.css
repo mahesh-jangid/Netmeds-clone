@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(246, 246, 247);
+    /* filter: blur(4px); */
+}
+
+#popUp {
+    position: absolute;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#popUp>p {
+    position: relative;
+    height: 170px;
+    width: 500px;
+    top: 130px;
+    left: 520px;
+    font-size: 32px;
+    background-color: rgb(50, 174, 177);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 120px;
+}
+
+#showAlert {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+#mainDiv {
+    width: 60%;
+    margin: auto;
+    height: 570px;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    padding: 14px;
+    /* border: 1px solid black; */
+}
+
+#mainDiv h2 {
+    text-align: center;
+    color: rgb(114, 111, 111);
+    margin-top: 8px;
+}
+
+#addressD {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid rgb(216, 210, 210);
+    /* border: 1px solid red; */
+}
+
+#paymentD {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+#addressForm {
+    width: 55%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#addressForm>label {
+    /* display: block; */
+    margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(44, 180, 182);
+}
+
+#addressForm>input, #addressForm>textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 11px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid rgb(209, 199, 199);
+    color: black
+}
+
+#addressForm>textarea {
+    font-size: 17px;
+    letter-spacing: -1px;
+}
+
+#addressForm>#addressBtn {
+    width: 105%;
+    background: rgb(50, 174, 177);
+    color: white;
+    font-weight: bold;
+    margin-top: 37px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#paymentD>div:nth-child(2) {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    line-height: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+#paymentD>div>h3 {
+    margin-bottom: 8px;
+    margin-top: 28px;
+    color: rgb(151 149 149);
+    font-size: 14px;
+}
+
+#paymentD>div>p {
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(190 176 176);
+}
+
+#paymentD>div>p:nth-child(2) {
+    font-size: 18px;
+    color: rgb(50, 174, 177);
+}
+
+#paymentD>div:nth-child(3) {
+    width: 80%;
+    margin: auto;
+}
+
+#paymentD>div:nth-child(3) div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 15px;
+    color: rgb(145, 139, 139);
+}
+
+#payForm {
+    width: 56%;
+    margin: auto;
+    margin-top: 6px;
+}
+
+#payForm input {
+    width: 100%;
+    display: block;
+    outline: none;
+    background: none;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#payForm label {
+    font-size: 12.8px;
+    font-weight: bold;
+    color: rgb(50, 174, 177);
+}
+
+#paymentD button {
+    width: 220px;
+    background: rgb(50, 174, 177);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#paymentD>div>button {
+    margin-left: 70px;
+    margin-top: 54px;
+    width: 250px;
+    padding: 12px;
+}
+
+#paymentD>div:nth-child(3)>div label {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(50, 174, 177);
+    margin-bottom: 16px;
+}

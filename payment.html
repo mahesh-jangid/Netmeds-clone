@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Images/icon.png"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="Styles/navBar.css" />
+    <link rel="stylesheet" href="Styles/signup.css" />
+    <link rel="stylesheet" href="Styles/payment.css" />
+    <title>Netmeds Payment</title>
+  </head>
+
+  <body>
+    <div class="navbar"></div>
+
+    <div id="popUp">
+      <p>Thanks For Purchasing! &#128522;</p>
+    </div>
+    <p id="showAlert">Please Enter Valid Credentials</p>
+    <div id="mainDiv">
+      <div id="addressD">
+        <h2>Add Your Address</h2>
+        <form id="addressForm">
+          <label for="name">FULL NAME</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <label for="email">EMAIL ADDRESS</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <label for="phone">PHONE NUMBER</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Enter your number"
+            min="1"
+            max="10"
+          />
+          <label for="address">ADDRESS</label>
+          <textarea
+            name="address"
+            id="address"
+            cols="30"
+            rows="2"
+            placeholder="Enter your address"
+          ></textarea>
+          <label for="city">CITY</label>
+          <input
+            type="text"
+            name="city"
+            id="city"
+            placeholder="Enter your city"
+          />
+          <label for="state">STATE</label>
+          <input
+            type="text"
+            name="state"
+            id="state"
+            placeholder="Enter your state"
+          />
+          <label for="pin">PIN CODE</label>
+          <input
+            type="number"
+            name="pin"
+            id="pin"
+            placeholder="Enter your pin code"
+            min="1"
+            max="6"
+          />
+          <input type="button" value="ADD ADDRESS" id="addressBtn" />
+        </form>
+      </div>
+      <div id="paymentD">
+        <h2>Payment Details</h2>
+      </div>
+    </div>
+    <script type="module">
+      import navbar from "./components/navbar.js";
+
+      let DOM_nav = document.querySelector(".navbar");
+      DOM_nav.innerHTML = navbar();
+    </script>
+    <script src="Scripts/itemsInCart.js" type="module"></script>
+    <script src="Scripts/payment.js"></script>
+    <script src="Scripts/nav.js"></script>
+    <!-- <script src="Scripts/itemsInCart.js"></script> -->
+  </body>
+</html>

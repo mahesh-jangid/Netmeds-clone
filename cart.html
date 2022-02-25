@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Images/icon.png"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="Styles/navBar.css" />
+    <link rel="stylesheet" href="Styles/cart.css" />
+    <title>
+      Netmeds.com: Indian Online Pharmacy | Buy Medicines Online, Fast Delivery
+    </title>
+  </head>
+
+  <body>
+    <div class="navbar"></div>
+
+    <div id="cartCont">
+      <div id="leftCart"></div>
+      <div id="rightCart"></div>
+    </div>
+    <script type="module">
+      import navbar from "./components/navbar.js";
+
+      let DOM_nav = document.querySelector(".navbar");
+      DOM_nav.innerHTML = navbar();
+    </script>
+    <script src="Scripts/itemsInCart.js" type="module"></script>
+    <script src="Scripts/nav.js"></script>
+    <script src="Scripts/cart.js"></script>
+  </body>
+</html>

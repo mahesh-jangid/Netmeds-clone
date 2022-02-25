@@ -1,0 +1,256 @@
+/**==============================================
+ * !             wellness page Css
+ *=============================================**/
+
+body {
+    background-color: #dae2e1;
+    font-family: 'Lato', sans-serif;
+}
+
+#top-add {
+    width: 98%;
+    height: 340px;
+    margin: 20px auto;
+}
+
+#top-add img {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 97%;
+    margin: auto;
+}
+
+/**=======================
+ * *       First section
+ *========================**/
+
+.clearfix {
+    height: 320px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.home-shopby-category {
+    height: 80px;
+    padding-left: 20px;
+}
+
+.home-shopby-category h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    line-height: 19.5px;
+    color: #6f7284;
+}
+
+.home-shopby-category span {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0 0;
+    margin: 12px 0 8px 10px;
+}
+
+.home-shopby-category p {
+    font-size: 14px;
+    padding-left: 0;
+    line-height: 2em;
+    color: #6f7284;
+    margin-left: 10px;
+}
+
+.product {
+    height: 250px;
+    display: flex;
+    position: relative;
+    /* overflow: scroll; */
+}
+
+.product>div {
+    width: 150px;
+    height: 175px;
+    text-align: center;
+    margin: 30px 45px;
+}
+
+.product img {
+    width: 150px;
+    height: 160px;
+    border: 1px solid #bbbbbd;
+    border-radius: 5px;
+}
+
+/* ! All Product CSS  */
+
+.homeProducts {
+    width: 98%;
+    margin: 25px auto;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    padding: 0 12px;
+    height: 464px;
+    /* border: 1px solid green; */
+}
+
+.homeProducts>h5 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(77, 72, 72);
+    margin-left: 15px;
+    padding-top: 18px;
+}
+
+.homeProducts>p {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: rgb(77, 72, 72);
+    margin: 13px 0 2px 15px;
+}
+
+.flexProduct {
+    display: flex;
+    gap: 12px;
+    padding: 0 15px;
+    margin-top: 18px;
+}
+
+.flexProduct>div {
+    width: 15.8%;
+    border: 1px solid #dbd6d6;
+    border-radius: 10px;
+    /* padding: 5px; */
+    /* letter-spacing: 1px; */
+}
+
+.flexProduct>div>p:first-child {
+    width: 52px;
+    padding: 2px;
+    font-size: 10px;
+    background: rgb(132, 190, 82);
+    color: white;
+    border-radius: 4px;
+    margin: 7px;
+    /* letter-spacing: 1px; */
+}
+
+.flexProduct h5, .flexProduct p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flexProduct img {
+    width: 65%;
+    height: 170px;
+    text-align: center;
+    margin-left: 17.5%;
+}
+
+.flexProduct h5 {
+    color: rgb(71, 70, 70);
+    margin-left: 7px;
+}
+
+.flexProduct>div>p:nth-child(4) {
+    font-size: 12px;
+    color: #6f7284;
+    font-style: italic;
+    margin: 7px 0 2px 7px;
+}
+
+.flexProduct>div>p:nth-child(5) {
+    font-size: 16px;
+    color: red;
+    margin: 5px 0 5px 7px;
+}
+
+.flexProduct>div>p:nth-child(5) strike {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.flexProduct button {
+    width: 94%;
+    padding: 10px;
+    background: rgb(50, 174, 177);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 5px 0 9px 3%;
+}
+
+/**=======================
+ * *       Sixth section
+ *========================**/
+
+.clearfix-2 {
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.product2 {
+    height: 270px;
+    display: flex;
+    overflow: scroll;
+}
+
+.product2 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.item-1 {
+    min-width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 30px 20px 10px 14px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.item-1:nth-child(1) {
+    background-color: rgb(255, 243, 235);
+}
+
+.item-1:nth-child(2) {
+    background-color: #f6fae8;
+}
+
+.item-1:nth-child(3) {
+    background-color: #ebfefc;
+}
+
+.item-1:nth-child(4) {
+    background-color: #eaf9ff;
+}
+
+.text {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.text>span {
+    margin-left: 28px;
+    color: #34aeb2;
+    font-size: 15px;
+}
+
+.text>h4 {
+    padding-left: 30px;
+    margin-bottom: 22px;
+}

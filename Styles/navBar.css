@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+      position: sticky;
+      top: 0;
+      z-index: 999;
+}
+.navBar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    letter-spacing: 1px;
+    background-color: rgb(50, 174, 177);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.pageWrap {
+    margin-top: 18px;
+}
+
+.mainNav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(50, 174, 177);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    width: 135px;
+}
+
+.searchDiv {
+    width: 46%;
+    height: 48px;
+    margin-left: 40px;
+    border-radius: 8px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.deliveryBox {
+    width: 20%;
+    height: 100%;
+    background: rgb(241, 242, 243);
+    color: black;
+    display: flex;
+    border-radius: 8px 0 0 8px;
+}
+
+.deliveryBox>img {
+    width: 25px;
+    height: 25px;
+    margin: 9px 7px 0 8px;
+}
+
+.deliveryBox>div {
+    margin-top: 6px;
+}
+
+.deliveryBox>div>div {
+    margin-top: 6px;
+    display: flex;
+}
+
+#penEdit {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+#penEdit img {
+    width: 14px;
+}
+
+.deliveryBox>div>p {
+    font-size: 12px;
+}
+
+.deliveryBox>div>div>h4 {
+    margin-left: 4px;
+    outline: none;
+    width: 52px;
+    word-wrap: inherit;
+}
+
+.searchBox {
+    width: 74%;
+}
+
+.searchBox input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 11px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btnBox button {
+    width: 100%;
+    height: 100%;
+    padding: 9px 11px 11px 9px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.btnBox button img {
+    width: 30px;
+    height: 30px;
+    color: aqua;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.cartIconDiv img {
+    height: 20px;
+    width: 20px;
+}
+
+.cartIconDiv p {
+    position: absolute;
+    width: 0.9rem;
+    height: 0.9rem;
+    right: -0.1rem;
+    top: 0.5rem;
+    border-radius: 35%;
+    background: #14a468;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: .7rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+
+.userIconDiv img {
+    height: 25px;
+    width: 24px;
+    border-radius: 50%;
+    /* background: #bc4747; */
+    background: #ae4848;
+    padding: 9px;
+}
+
+.cartIconDiv, .uploadDiv, .userIconDiv, .loginDiv {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.loginDiv a {
+    text-decoration: none;
+    color: white;
+}
+
+/**<=======================
+ * !      Main Nav Css
+ *========================>**/
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6px 16%;
+}
+
+.nav>li>a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.nav>li {
+    list-style-type: none;
+    text-decoration: none;
+    width: 240px;
+}
+
+.nav>li>a>p {
+    margin-top: 3.5px;
+}
+
+.nav>li>a>p>img {
+    margin-top: -5px;
+    margin-right: 3%;
+    float: right;
+}
+
+#navArro {
+    margin-right: 20%;
+}
+
+small {
+    font-size: 10px;
+    color: rgb(241, 245, 248);
+}
+
+.nav>li>a>img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 14px;
+}
+
+.subNav {
+    display: none;
+    list-style-type: none;
+    margin-left: 50px;
+    background: rgb(243, 243, 243);
+    line-height: 20px;
+}
+
+.subNav>li {
+    padding: 8px;
+}
+
+.subNav>li:hover {
+    background: white;
+}
+
+.subNav>li>a:hover {
+    color: rgb(50, 174, 177);
+}
+
+.subNav>li>a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+/* * Nav-2 */
+
+.nav-2 {
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    /* background: red; */
+}
+
+.nav-2>ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17%;
+}
+
+.nav-2>ul>li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.nav-2>ul>li>a {
+    color: rgb(82, 79, 79);
+    text-decoration: none;
+    background-color: transparent;
+}
