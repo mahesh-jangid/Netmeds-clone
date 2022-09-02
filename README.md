@@ -1,4 +1,7 @@
-## Netmeds
+## Netmeds Website Clone
+
+## Demo Link
+https://netmeds-clone-76.netlify.app/
 
 Netmeds is a trusted Indian online pharmacy Which provides the quick online purchase and fast delivery of prescription medications.
 
@@ -30,5 +33,4 @@ to facilitate the full stack web development curriculum.
 * ### Mocker API
 ##
 
-## Demo Link
-https://netmeds-clone-76.netlify.app/
+
